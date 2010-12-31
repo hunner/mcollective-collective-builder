@@ -6,7 +6,8 @@ daemonize = 1
 identity = <%= identity %>
 
 # Plugins
-securityprovider = none
+securityprovider = psk
+plugin.psk = unset
 
 connector = stomp
 plugin.stomp.pool.size = 1
